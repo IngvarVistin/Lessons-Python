@@ -1,4 +1,5 @@
 def func(**kwargs):
+5
     return kwargs
 
 name = input('Введите имя: ')
