@@ -9,3 +9,4 @@ with open('plan&plan.txt') as f:
         subj, lect, pract, lab = line
         dict_[subj] = int(lect[:-3]) + int(pract[:-4]) + int(lab[:-5])
     print(f'Общее количество часов по предметам - \n {dict_}')
+remove('plan&plan.txt')
