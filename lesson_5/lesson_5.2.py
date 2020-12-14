@@ -10,4 +10,4 @@ with open('Jonathan Seagull.txt') as f:
         print(f'Количество символов {i+1} строки: {len(content[i])}')
 with open('Jonathan Seagull.txt') as f:
     content = f.read().split()
-    print(len(content))
+    print(f'Количество слов в файле: {len(content)}')
