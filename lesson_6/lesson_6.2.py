@@ -10,5 +10,4 @@ class Road:
         return self._length * self._width * self._mass * self._thick
 
 Road = Road()
-print(f'Для покрытия всего дорожного полотна необходимо {Road.asphalt()} кг асфальта')
-
+print(f'Для покрытия всего дорожного полотна необходимо {Road.asphalt()} кг. асфальта')
